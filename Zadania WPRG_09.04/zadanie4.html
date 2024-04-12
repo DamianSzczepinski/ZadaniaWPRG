@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        header{
+            background-color: lightgray;
+            display: flex;
+            
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            text-align: center;
+            width: 100%;
+        }
+        li {
+            margin: auto;
+        }
+        footer {
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        .witaj {
+            display: flex;
+            width: 25%;
+            margin: 20px;
+        }
+        div {
+            display: flex;
+        }
+        container {
+            display: flex;
+            width: auto;
+            margin: 20px;
+            gap: 10px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+        } 
+        .jed{ 
+            border: 1px solid gray;
+            width: 40%;
+            padding: 0 10px;
+        }
+        .dwa{
+            
+            border: 1px solid gray;
+            width: 100%;
+            padding: 0 10px;
+        }
+        el {
+            width: 25%;
+            margin: 20px;
+            padding: 0 10px;
+            border: 1px solid gray;
+            
+        }
+        h4 {
+            margin-bottom: -15px;
+        }
+        div {
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Strona główna</li>
+            <li>O nas</li>
+            <li>Kontakt</li>
+        </ul>
+    </header>
+    <div>
+        <h2 class="witaj">Witaj na naszej <br> skomplikowanej <br> stronie!</h2>
+        <container>
+            <element class="jed">
+                <h2>Funkcja 1</h2>
+                <p>Opis funkcji 1...</p>
+            </element>
+            <element class="jed">
+                <h2>Funkcja 2</h2>
+                <p>Opis funkcji 2...</p>
+            </element>
+            <element class="dwa">
+                <h2>Funkcja 3</h2>
+                <p>Opis funkcji 3...</p>
+            </element>
+        </container>
+        <el>
+            <h4>Dodatkowe informacje</h4>
+            <p>...</p>
+        </el>
+    </div>
+    <footer>
+            @ 2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone
+    </footer>
+</body>
+</html>
